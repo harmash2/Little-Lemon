@@ -1,0 +1,19 @@
+ul {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
+
+ul li a {
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+ul li a:hover {
+  transform: scale(1.1);
+  font-weight: 500;
+}

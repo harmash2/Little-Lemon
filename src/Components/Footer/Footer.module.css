@@ -1,0 +1,33 @@
+footer {
+  width: 100%;
+  background-color: var(--primary1);
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: self-start;
+}
+
+.footerNav {
+  
+}
+
+footer nav ul, footer .footerContacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+
+}
+footer .footerContacts a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+footer .footerContacts a:hover {
+  transform: scale(1.1);
+
+}
+footer p {
+  font-weight: 600;
+}
